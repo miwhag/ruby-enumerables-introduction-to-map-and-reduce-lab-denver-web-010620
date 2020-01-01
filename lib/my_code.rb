@@ -73,7 +73,18 @@ def reduce_to_all_true(source_array)
 return false if CONDITION 
  index += 1 
  end
-  return starting_point
+  return true 
+  end 
+ 
+ 
+ def reduce_to_any_true(source_array) 
+ index = 0 
+ 
+ while index < source_array.length
+return true if CONDITION  (i have found a truthy value)
+ index += 1 
+ end
+  return false 
   end 
  
 
