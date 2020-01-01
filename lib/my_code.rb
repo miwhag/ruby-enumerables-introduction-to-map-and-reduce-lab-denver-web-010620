@@ -70,7 +70,7 @@ def reduce_to_all_true(source_array)
  index = 0 
  
  while index < source_array.length
- starting_point += source_array[index]
+return false if CONDITION 
  index += 1 
  end
   return starting_point
