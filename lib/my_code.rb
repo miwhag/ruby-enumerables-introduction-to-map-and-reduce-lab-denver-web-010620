@@ -68,7 +68,6 @@ def reduce_to_total(source_array, starting_point = 0)
 
 def reduce_to_all_true(source_array) 
  index = 0 
- value = 0 
  
  while index < source_array.length do 
 return false if source_array[index] == false 
@@ -83,7 +82,7 @@ return false if source_array[index] == false
  index = 0 
  
  while index < source_array.length
-return true if CONDITION  (i have found a truthy value)
+return true if source_array[index] == true 
  index += 1 
  end
   return false 
